@@ -1,0 +1,107 @@
+header{
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+    background-color: #ffffa7;
+}
+
+header .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 12px;
+    background-color: #f7f58e;
+}
+header .top ul{
+    display: inline-flex;
+    padding-right: 12px;
+    justify-content: flex-end;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+header .top ul li{
+    display: flex;
+    padding-left: 20px;
+}
+header .top .logo{
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header .content{
+    display: flex;
+    padding-left: 12px;
+    padding-right: 12px;
+    justify-content: space-between;
+}
+
+header .content .text{
+    flex-direction: column;
+    width: 50%;
+}
+
+header .content .picture{
+    display: flex;
+    width: 40%;
+}
+.box-heading{
+    text-align: center;
+    padding: 1px;
+    margin: px;
+    background-color: #d4d364;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #d4d364;
+}
+.box div{
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 5px;
+}
+.box div p{
+    text-align: center;
+}
+
+.box div img{
+    border: 3px solid #3d3c01;
+    border-radius: 5px;
+}
+.box-2{
+    background-color: #ffffa7;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+}
+.newsletter{
+    background-color: #d4d364;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter .info{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffa7;
+    border-radius: 12px;
+}
+.newsletter .info label{
+    margin-right: 15px;
+    padding: 12px;
+}
+.newsletter .info button{
+    margin: 5px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: #d4d43c;
+}
+footer{
+    background-color: #f7f58e;
+    padding: 1px;
+    text-align: center;
+    
+}
